@@ -10,9 +10,9 @@ const Services = () => {
                   .then(data =>setServices(data))
          },[])
          return (
-                  <div>
-                      <h2 className="text-primary mt-3">Our Services</h2>
-                      <div className="service-container">
+                  <div id="services">
+                      <h2 className="text-primary mt-3 ">Our Services</h2>
+                      <div className="row">
                       {
                            services.map(service => <Service
                            key={service.id}

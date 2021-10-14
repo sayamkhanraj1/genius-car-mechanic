@@ -1,0 +1,22 @@
+.login-body{
+         background-image: url(../../../images/login-backgroung.jpg),linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+         height: 100vh;
+         width: 100%;
+         background-blend-mode: overlay;
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center
+}
+.login-form {
+         background-color: rgb(201, 196, 196);
+         padding: 40px;
+         border-radius: 20px;
+}
+.sing-in{
+         margin-top: 15px;
+         padding: 5px 20px;
+         background-color: rgb(58, 56, 56);
+         color: white;
+         font-size: 15px;
+         font-weight: 500;
+}
